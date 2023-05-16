@@ -1,0 +1,2 @@
+ErrorDocument 404 http://examphp.test/pages/errors/404.php
+ErrorDocument 500 http://examphp.test/pages/errors/500.php

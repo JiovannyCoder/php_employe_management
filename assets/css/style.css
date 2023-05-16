@@ -1,0 +1,84 @@
+body {
+    background: var(--bs-gray-200);
+}
+
+.text-plein {
+    color: #14DC7F;
+}
+.text-mi-temps {
+    color: crimson;
+}
+
+/* btn success */
+.btn-success {
+    background-color: #14DC7F;
+    border-color: #14DC7F;
+}
+.btn-success:hover {
+    background-color: #12be6e;
+    border-color: #12be6e;
+}
+.btn-outline-success {
+    color: #14DC7F;
+    border-color: #14DC7F;
+}
+.btn-outline-success:hover {
+    color: white;
+    border-color: #12be6e;
+    background-color: #12be6e;
+}
+.border-success {
+    border-color: #14DC7F!important;
+}
+.text-success {
+    color: #14DC7F !important;
+}
+
+/* btn danger */
+.btn-outline-danger {
+    color: crimson;
+    border-color: crimson;
+}
+
+.btn-outline-danger:hover {
+    color: white;
+    border-color: crimson;
+    background-color: crimson;
+}
+
+.border-danger {
+    border-color: crimson!important;
+}
+
+/* pagination employes */
+#Employes .page-item.active .page-link {
+    color: #fff;
+    background-color: var(--bs-info) ;
+    border-color: var(--bs-info) ;
+}
+
+#Employes .page-link {
+    color: var(--bs-info);
+}
+
+/* pagination services */
+#Services .page-item.active .page-link {
+    color: #fff;
+    background-color: var(--bs-warning) ;
+    border-color: var(--bs-warning) ;
+}
+
+#Services .page-link {
+    color: var(--bs-warning);
+}
+
+/* pagination metiers */
+#Metiers .page-item.active .page-link {
+    color: #fff;
+    background-color: #14DC7F ;
+    border-color: #14DC7F ;
+}
+
+#Metiers .page-link {
+    color: #14DC7F;
+}

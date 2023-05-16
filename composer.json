@@ -1,0 +1,17 @@
+{
+    "name": "vendor/gestiondupersonnel",
+    "description": "gestion du personnel, des services et des metiers",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/",
+            "controllers\\": "controllers/",
+            "config\\": "config/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jiovanny"
+        }
+    ],
+    "require": {}
+}
